@@ -1,17 +1,17 @@
 #the mod name as displayed in-game
-displayName: "Java Mod Template"
+displayName: "Kyanite Spark"
 
 #the internal name of your mod
-name: "example-java-mod"
+name: "kyanitespark"
 
 #your name
-author: "You"
+author: "Inchez & Haron"
 
 #the fully qualified main class of the mod
-main: "example.ExampleJavaMod"
+main: "kyanitespark.KyaniteSparkMod"
 
 #the mod description as seen in the mod dialog
-description: "A Mindustry Java mod template."
+description: "This mod adds new items and buildings such as the kyanite drill and kyanite."
 
 #the mod version
 version: 1.0

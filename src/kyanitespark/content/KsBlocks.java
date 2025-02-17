@@ -56,7 +56,7 @@ public class KsBlocks {
             oreScale = 23.47619f;
         }};
 
-        kyaniteKiln = new GenericCrafter("kyanite-kiln"){{
+        kyaniteKiln = new GenericCrafter("kyanite-smelter"){{
             requirements(Category.crafting,
                 with(Items.copper, 35,
                         Items.lead, 25,

@@ -33,7 +33,7 @@ import static mindustry.type.ItemStack.with;
 public class KsBlocks {
     public static Block
     //defense
-    kyaniteWall,
+    kyaniteWall, kyaniteWallLarge,
     // ore
     oreKyanite,
     // Smelter
@@ -44,10 +44,17 @@ public class KsBlocks {
     public static void load(){
 
         kyaniteWall = new Wall("kyanite-wall") {{
+            requirements(Category.defense, with(KsItems.processedKyanite, 4));
             health = 1000;
             destructible = true;
-            requirements(Category.defense, with(KsItems.kyanite, 2));
 
+        }};
+
+        kyaniteWallLarge = new Wall("kyanite-wall-large"){{
+            requirements(Category.defense, with(KsItems.processedKyanite, 24));
+            size = 2;
+            health = 6000;
+            destructible = true;
         }};
 
         oreKyanite = new OreBlock("kyanite", KsItems.kyanite) {{

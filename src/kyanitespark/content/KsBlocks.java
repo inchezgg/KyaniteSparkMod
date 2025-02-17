@@ -36,8 +36,8 @@ public class KsBlocks {
     kyaniteWall,
     // ore
     oreKyanite,
-    // Kiln
-    kyaniteKiln,
+    // Smelter
+    kyaniteSmelter,
     // Drils
     kyaniteDrill;
 
@@ -56,7 +56,7 @@ public class KsBlocks {
             oreScale = 23.47619f;
         }};
 
-        kyaniteKiln = new GenericCrafter("kyanite-smelter"){{
+        kyaniteSmelter = new GenericCrafter("kyanite-smelter"){{
             requirements(Category.crafting,
                 with(Items.copper, 35,
                         Items.lead, 25,
